@@ -982,7 +982,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1311cdeb262c7d144b3f8e6d0f9b877a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 15
 --- !u!1 &1450446732
 GameObject:
   m_ObjectHideFlags: 0
@@ -995,6 +995,7 @@ GameObject:
   - component: {fileID: 1450446735}
   - component: {fileID: 1450446734}
   - component: {fileID: 1450446736}
+  - component: {fileID: 1450446737}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -1105,7 +1106,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1450446732}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 28517e399268fcb47a05c62c48c5e835, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1141,6 +1142,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1450446737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450446732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a7b7eed6fde0714fa8ccec03a71f452, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _speed: 100
 --- !u!1 &1827034243
 GameObject:
   m_ObjectHideFlags: 0

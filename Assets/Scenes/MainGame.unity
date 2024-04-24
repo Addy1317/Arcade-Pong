@@ -573,6 +573,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  _ballRigidbody2d: {fileID: 1450446734}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

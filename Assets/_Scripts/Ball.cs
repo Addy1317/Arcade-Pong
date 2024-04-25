@@ -27,5 +27,10 @@ namespace SlowpokeStudio.ArcadePong
             _rigidbody2D.AddForce(direction * this._speed);
 
         }
+
+        internal void AddForce(Vector2 force)
+        {
+            _rigidbody2D.AddForce(force);
+        }
     }
 }

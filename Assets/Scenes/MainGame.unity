@@ -414,6 +414,7 @@ GameObject:
   - component: {fileID: 345121883}
   - component: {fileID: 345121882}
   - component: {fileID: 345121885}
+  - component: {fileID: 345121886}
   m_Layer: 0
   m_Name: ComputerPaddle
   m_TagString: Untagged
@@ -574,6 +575,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   _ballRigidbody2d: {fileID: 1450446734}
+--- !u!114 &345121886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345121880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2017e7e1588bdf045aa4f0d0ba48a518, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _bounceStrength: 10
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -676,6 +690,7 @@ GameObject:
   m_Component:
   - component: {fileID: 807452940}
   - component: {fileID: 807452941}
+  - component: {fileID: 807452942}
   m_Layer: 0
   m_Name: TopWall
   m_TagString: Untagged
@@ -743,6 +758,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &807452942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 807452939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2017e7e1588bdf045aa4f0d0ba48a518, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _bounceStrength: 5
 --- !u!1 &1143736197
 GameObject:
   m_ObjectHideFlags: 0
@@ -825,6 +853,7 @@ GameObject:
   - component: {fileID: 1152304237}
   - component: {fileID: 1152304239}
   - component: {fileID: 1152304240}
+  - component: {fileID: 1152304241}
   m_Layer: 0
   m_Name: PlayerPaddle
   m_TagString: Untagged
@@ -984,6 +1013,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 15
+--- !u!114 &1152304241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152304235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2017e7e1588bdf045aa4f0d0ba48a518, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _bounceStrength: 10
 --- !u!1 &1450446732
 GameObject:
   m_ObjectHideFlags: 0
@@ -1166,6 +1208,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1827034244}
   - component: {fileID: 1827034245}
+  - component: {fileID: 1827034246}
   m_Layer: 0
   m_Name: BottomWall
   m_TagString: Untagged
@@ -1233,6 +1276,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1827034246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827034243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2017e7e1588bdf045aa4f0d0ba48a518, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _bounceStrength: 5
 --- !u!1 &1992192451
 GameObject:
   m_ObjectHideFlags: 0

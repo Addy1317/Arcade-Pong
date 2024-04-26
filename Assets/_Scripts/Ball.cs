@@ -15,7 +15,7 @@ namespace SlowpokeStudio.ArcadePong
         }
         private void Start()
         {
-            AddStartForce();
+            ResetPosition();
         }
 
         private void AddStartForce()
@@ -31,6 +31,14 @@ namespace SlowpokeStudio.ArcadePong
         internal void AddForce(Vector2 force)
         {
             _rigidbody2D.AddForce(force);
+        }
+
+        internal void ResetPosition()
+        {
+            _rigidbody2D.position = Vector3.zero;
+            _rigidbody2D.velocity = Vector3.zero;
+
+            AddStartForce();
         }
     }
 }

@@ -44,5 +44,7 @@ namespace SlowpokeStudio.ArcadePong
             this._ball.ResetPosition();
             this._ball.AddStartForce();
         }
+
+
     }
 }

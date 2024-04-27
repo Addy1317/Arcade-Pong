@@ -24,11 +24,6 @@ namespace SlowpokeStudio.ArcadePong
         [SerializeField] private Slider _soundSlider;
         [SerializeField] private Button _settingsCloseButton;
 
-        private void Awake()
-        {
-
-        }
-
         private void Start()
         {
             LobbyButtons();
@@ -55,11 +50,6 @@ namespace SlowpokeStudio.ArcadePong
         private void SettingsButtons()
         {
             _settingsCloseButton.onClick.AddListener(SettingButtonCLosed);
-        }
-
-        private void Update()
-        {
-
         }
 
         private void PlayButton()

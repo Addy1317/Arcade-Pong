@@ -8,7 +8,6 @@ namespace SlowpokeStudio.ArcadePong
     {
         [SerializeField] private float _bounceStrength;
 
-
         private void OnCollisionEnter2D(Collision2D collision)
         {
             Ball ball = collision.gameObject.GetComponent<Ball>();

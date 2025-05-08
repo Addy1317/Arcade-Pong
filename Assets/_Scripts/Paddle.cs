@@ -18,7 +18,7 @@ namespace SlowpokeStudio.ArcadePong
         internal void ResetPosition()   
         {
             rigidbody2d.position = new Vector2(rigidbody2d.position.x, 0.0f);
-            rigidbody2d.velocity = Vector2.zero;
+            rigidbody2d.linearVelocity = Vector2.zero;
         }
     }
 }

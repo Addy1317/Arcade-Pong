@@ -13,7 +13,7 @@ namespace SlowpokeStudio.ArcadePong
 
         private void TrackingBallMovement()
         {
-            if (this._ballRigidbody2d.velocity.x > 0.0f)
+            if (this._ballRigidbody2d.linearVelocity.x > 0.0f)
             {
                 if (this._ballRigidbody2d.position.y > this.transform.position.y)
                 {
